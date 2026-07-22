@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Smt. Shakuntala Institutions of Nursing Education
+   Design Tokens & Color Palette Variables
+   ========================================================================== */
+
+:root {
+  /* High-Contrast Color Palette */
+  --royal-blue: #0F3D91;        /* Primary Deep Royal Blue */
+  --primary-blue: #0A192F;      /* Dark Navy Text & Dark Elements */
+  --secondary-blue: #1A365D;    /* Slate Dark Blue */
+  --gold-metallic: #E6AA33;     /* Accent Gold for Hover & Highlights */
+  --gold-accent: #F4C430;       /* Bright Gold Accent */
+  --gold-cream: #FDE047;        /* High-Contrast Gold Text */
+  --accent-cyan: #06B6D4;       /* Medical Cyan */
+  
+  /* Canvas & Card Backgrounds */
+  --bg-warm-white: #FAF9F5;     /* Page Background Canvas */
+  --bg-cream-light: #F7F4EB;    /* Section Background Canvas */
+  --bg-cream-card: #FFFFFF;     /* Pure White Card Canvas */
+  --bg-cream-subtle: #F1F5F9;   /* Light Pill & Sub-badge Background */
+  --surface-white: #FFFFFF;     /* Pure White Surface */
+  
+  /* Typography Colors */
+  --text-main: #0A192F;         /* Dark Navy Core Body Text */
+  --text-body: #1E293B;         /* Crisp Dark Gray Body Text */
+  --text-muted: #475569;        /* Medium Dark Muted Text */
+  --text-on-dark: #FFFFFF;      /* Pure Crisp White Text on Dark */
+  
+  /* Borders & Shadows */
+  --border-subtle: #E2E8F0;     /* Clean Light Border */
+  --border-medium: #CBD5E1;     /* Standard Border */
+  --shadow-sm: 0 2px 8px rgba(10, 25, 47, 0.06);
+  --shadow-md: 0 10px 25px rgba(10, 25, 47, 0.08);
+  --shadow-lg: 0 20px 40px rgba(10, 25, 47, 0.14);
+  --shadow-gold: 0 10px 25px rgba(230, 170, 51, 0.35);
+
+  /* Typography Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Manrope', 'Inter', system-ui, sans-serif;
+  
+  /* Radius & Transitions */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-pill: 9999px;
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --max-width: 1280px;
+}
+
+/* Dark Theme Overrides */
+[data-theme="dark"] {
+  --bg-warm-white: #0B132B;
+  --bg-cream-light: #1C2541;
+  --bg-cream-card: #1E293B;
+  --surface-white: #1E293B;
+  --text-main: #F8FAFC;
+  --text-body: #E2E8F0;
+  --text-muted: #94A3B8;
+  --border-subtle: #334155;
+  --border-medium: #475569;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
+}

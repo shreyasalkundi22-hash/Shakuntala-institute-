@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smt. Shakuntala Institutions of Nursing Education | Vidyanagar, Hubli</title>
+  <meta name="description" content="Smt. Shakuntala Institutions of Nursing Education, Vidyanagar, Hubli. INC & KNC Approved B.Sc Nursing, Post Basic B.Sc, GNM, M.Sc & Paramedical Programs. Heal and comfort through skillful caring.">
+  
+  <!-- Fonts: Manrope, Inter, Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <style>
+    .toast-container {
+      position: fixed;
+      bottom: 30px; right: 30px;
+      z-index: 10000;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .toast-message {
+      background: var(--royal-blue); color: #FFF;
+      padding: 16px 24px; border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg); border-left: 4px solid var(--gold-metallic);
+      font-weight: 600; font-size: 0.95rem; opacity: 0; transform: translateY(20px); transition: all 0.3s ease;
+    }
+    .toast-message.show { opacity: 1; transform: translateY(0); }
+    .modal-overlay {
+      position: fixed; inset: 0;
+      background: rgba(11, 37, 69, 0.85); backdrop-filter: blur(12px);
+      z-index: 10000; display: flex; align-items: center; justify-content: center;
+      padding: 2rem; opacity: 0; visibility: hidden; transition: all 0.3s ease;
+    }
+    .modal-overlay.active { opacity: 1; visibility: visible; }
+    .modal-card {
+      background: var(--surface-white); border-radius: 20px;
+      max-width: 680px; width: 100%; padding: 2.5rem; position: relative;
+      box-shadow: var(--shadow-lg); border: 2px solid var(--gold-metallic);
+      max-height: 90vh; overflow-y: auto;
+    }
+    .modal-close-btn {
+      position: absolute; top: 20px; right: 20px;
+      width: 36px; height: 36px; border-radius: 50%;
+      background: var(--bg-cream-subtle); border: none; font-size: 1.1rem;
+      cursor: pointer; color: var(--royal-blue);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Custom Awwwards Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-follower"></div>
+
+  <!-- Scroll Progress Line -->
+  <div class="scroll-progress-bar"></div>
+
+  <!-- Compact Top Contact Bar -->
+  <header class="top-branding-bar">
+    <div class="section-container branding-inner">
+      
+      <!-- Brand Identity Block -->
+      <a href="#home" class="brand-identity">
+        <img src="assets/images/media__1784735279820.jpg" alt="Smt. Shakuntala Institutions Official Emblem Logo" class="brand-logo-img">
+        <div class="brand-text-block">
+          <h1 class="brand-name">Smt. Shakuntala Institutions of Nursing Education</h1>
+          <span class="brand-motto">“Heal and comfort through skillful caring”</span>
+        </div>
+      </a>
+
+      <!-- Compact Contact Strip -->
+      <div class="top-contact-pills">
+        <a href="tel:9900641054" class="contact-pill-item">
+          <svg class="contact-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>9900641054</span>
+        </a>
+        <a href="mailto:ssinehubli2003@gmail.com" class="contact-pill-item">
+          <svg class="contact-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span>ssinehubli2003@gmail.com</span>
+        </a>
+        <span class="contact-pill-item">
+          <svg class="contact-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Vidyanagar, Hubli</span>
+        </span>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Horizontal Navigation Bar -->
+  <nav class="site-header">
+    <div class="section-container horizontal-navbar">
+      
+      <ul class="horizontal-nav-list">
+        <li class="horizontal-nav-item active"><a href="#home" class="horizontal-nav-link">Home</a></li>
+        <li class="horizontal-nav-item"><a href="#about" class="horizontal-nav-link">About Us</a></li>
+        <li class="horizontal-nav-item"><a href="#admissions" class="horizontal-nav-link">Admissions</a></li>
+        <li class="horizontal-nav-item"><a href="#courses" class="horizontal-nav-link">Programs</a></li>
+        <li class="horizontal-nav-item"><a href="#departments" class="horizontal-nav-link">Departments</a></li>
+        <li class="horizontal-nav-item"><a href="#institutions" class="horizontal-nav-link">Our Institutions</a></li>
+        <li class="horizontal-nav-item"><a href="#gallery" class="horizontal-nav-link">Gallery</a></li>
+        <li class="horizontal-nav-item"><a href="#facilities" class="horizontal-nav-link">Facilities</a></li>
+        <li class="horizontal-nav-item"><a href="#hostel" class="horizontal-nav-link">Hostel Life</a></li>
+        <li class="horizontal-nav-item"><a href="#campus-life" class="horizontal-nav-link">Campus Life</a></li>
+        <li class="horizontal-nav-item"><a href="#placements" class="horizontal-nav-link">Placements</a></li>
+        <li class="horizontal-nav-item"><a href="#contact" class="horizontal-nav-link">Contact</a></li>
+      </ul>
+
+      <div class="navbar-right-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Theme">🌙</button>
+        <button class="btn-nav-apply trigger-apply-modal">Apply Now 2026</button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero Image Slider (Top-Right CTA Buttons & Lower Single-Line Headlines Across All Slides) -->
+  <section id="home" class="hero-slider-section">
+    
+    <div class="hero-slider-track">
+      
+      <!-- Slide 1: College Building -->
+      <div class="hero-slide active">
+        <img src="assets/images/media__1784735388814.jpg" alt="Smt. Shakuntala Institute of Nursing Education College Building" class="hero-slide-img" loading="lazy">
+        <div class="hero-slide-overlay"></div>
+        
+        <!-- Top-Right CTA Buttons -->
+        <div class="hero-top-right-actions">
+          <button class="btn-hero-primary trigger-apply-modal">Apply Now</button>
+          <a href="#institutions" class="btn-hero-secondary">Explore Institution</a>
+        </div>
+
+        <!-- Lower Single-Line Headline Content -->
+        <div class="hero-slide-container section-container">
+          <div class="hero-direct-content">
+            <span class="hero-tagline">✦ Smt. Shakuntala Institutions • Hubli & Kittur</span>
+            <h2 class="hero-main-title-single">World-Class Nursing <span>Campus</span> & Facilities</h2>
+            <p class="hero-short-desc">Situated in a calm, quiet, and natural environment in Vidyanagar, Hubli providing clinical education conducive for learning.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: Utkarsha Graduation Convocation -->
+      <div class="hero-slide">
+        <img src="assets/images/media__1784731838699.jpg" alt="Utkarsha Graduation Convocation Ceremony" class="hero-slide-img" loading="lazy">
+        <div class="hero-slide-overlay"></div>
+        
+        <!-- Top-Right CTA Buttons -->
+        <div class="hero-top-right-actions">
+          <button class="btn-hero-primary trigger-apply-modal">Apply Now</button>
+          <a href="#about" class="btn-hero-secondary">Explore Institution</a>
+        </div>
+
+        <!-- Lower Single-Line Headline Content -->
+        <div class="hero-slide-container section-container">
+          <div class="hero-direct-content">
+            <span class="hero-tagline">✦ Academic Excellence & Convocation</span>
+            <h2 class="hero-main-title-single">Shaping <span>Compassionate</span> Healthcare Leaders</h2>
+            <p class="hero-short-desc">Celebrating 20+ years of nursing education with 100% INC & KNC approved degree and diploma programs.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: 8th Batch B.Sc Nursing Students -->
+      <div class="hero-slide">
+        <img src="assets/images/media__1784731749333.jpg" alt="8th Batch B.Sc Nursing Students" class="hero-slide-img" loading="lazy">
+        <div class="hero-slide-overlay"></div>
+        
+        <!-- Top-Right CTA Buttons -->
+        <div class="hero-top-right-actions">
+          <button class="btn-hero-primary trigger-apply-modal">Apply Now</button>
+          <a href="#courses" class="btn-hero-secondary">Explore Institution</a>
+        </div>
+
+        <!-- Lower Single-Line Headline Content -->
+        <div class="hero-slide-container section-container">
+          <div class="hero-direct-content">
+            <span class="hero-tagline">✦ B.Sc Nursing & Post Basic B.Sc</span>
+            <h2 class="hero-main-title-single">Empowering <span>Professional</span> Registered Nurses</h2>
+            <p class="hero-short-desc">Rigorous theoretical curriculum combined with hands-on skill lab simulation and hospital clinical rotations.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: 22nd Batch Diploma GNM Students -->
+      <div class="hero-slide">
+        <img src="assets/images/media__1784731816632.jpg" alt="22nd Batch Diploma GNM Students" class="hero-slide-img" loading="lazy">
+        <div class="hero-slide-overlay"></div>
+        
+        <!-- Top-Right CTA Buttons -->
+        <div class="hero-top-right-actions">
+          <button class="btn-hero-primary trigger-apply-modal">Apply Now</button>
+          <a href="#institutions" class="btn-hero-secondary">Explore Institution</a>
+        </div>
+
+        <!-- Lower Single-Line Headline Content -->
+        <div class="hero-slide-container section-container">
+          <div class="hero-direct-content">
+            <span class="hero-tagline">✦ Clinical Experience & Own Hospitals</span>
+            <h2 class="hero-main-title-single">Hands-On <span>Clinical Care</span> at Own Hospitals</h2>
+            <p class="hero-short-desc">Privilege of serving patients in acutely ill wards, pediatric, OBG, psychiatric, and community health programs.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Stage Lamp Lighting & President -->
+      <div class="hero-slide">
+        <img src="assets/images/media__1784731736532.jpg" alt="Dignitaries Lamp Lighting Oath Ceremony" class="hero-slide-img" loading="lazy">
+        <div class="hero-slide-overlay"></div>
+        
+        <!-- Top-Right CTA Buttons -->
+        <div class="hero-top-right-actions">
+          <button class="btn-hero-primary trigger-apply-modal">Apply Now</button>
+          <a href="#leadership" class="btn-hero-secondary">Explore Institution</a>
+        </div>
+
+        <!-- Lower Single-Line Headline Content -->
+        <div class="hero-slide-container section-container">
+          <div class="hero-direct-content">
+            <span class="hero-tagline">✦ Founder & President Dr. Veerabhadrappa E. Gadigi</span>
+            <h2 class="hero-main-title-single">Founded on <span>Service</span> to Humanity</h2>
+            <p class="hero-short-desc">Smt. Shakuntala Memorial Charitable Trust ® was established with achievement orientation to the noble nursing profession.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6: Utkarsha Cultural Dance Performance -->
+      <div class="hero-slide">
+        <img src="assets/images/media__1784731636283.jpg" alt="Utkarsha Cultural Performance" class="hero-slide-img" loading="lazy">
+        <div class="hero-slide-overlay"></div>
+        
+        <!-- Top-Right CTA Buttons -->
+        <div class="hero-top-right-actions">
+          <button class="btn-hero-primary trigger-apply-modal">Apply Now</button>
+          <a href="#gallery" class="btn-hero-secondary">Explore Institution</a>
+        </div>
+
+        <!-- Lower Single-Line Headline Content -->
+        <div class="hero-slide-container section-container">
+          <div class="hero-direct-content">
+            <span class="hero-tagline">✦ Vibrant Student Life & Cultural Fest</span>
+            <h2 class="hero-main-title-single">Holistic Growth & <span>Creative</span> Excellence</h2>
+            <p class="hero-short-desc">Fostering student development through enactments of core values: excellence, humanity, creativity, self-confidence, and practicality.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Visible Circular Navigation Arrows (← and →) -->
+    <button class="slider-arrow-btn slider-arrow-prev" aria-label="Previous Slide">←</button>
+    <button class="slider-arrow-btn slider-arrow-next" aria-label="Next Slide">→</button>
+
+    <!-- Bottom Dots & Slide Counter -->
+    <div class="slider-bottom-bar">
+      <div class="slide-dots-container">
+        <button class="slide-dot active" aria-label="Slide 1"></button>
+        <button class="slide-dot" aria-label="Slide 2"></button>
+        <button class="slide-dot" aria-label="Slide 3"></button>
+        <button class="slide-dot" aria-label="Slide 4"></button>
+        <button class="slide-dot" aria-label="Slide 5"></button>
+        <button class="slide-dot" aria-label="Slide 6"></button>
+      </div>
+
+      <div class="scroll-indicator-down">
+        Scroll to Explore ↓
+      </div>
+
+      <div class="slide-counter-badge">
+        <span id="slideCounterCurrent">01</span> / 06
+      </div>
+    </div>
+
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-section">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-building-card">
+          <img src="assets/images/media__1784735388814.jpg" alt="Smt. Shakuntala Institute of Nursing Education College Building @ Vidyanagar, Hubli">
+          <div class="building-tag-badge">Proposed Campus @ Vidyanagar, Hubli</div>
+        </div>
+
+        <div>
+          <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">About Our Institution</span>
+          <h2 style="font-size: 2.5rem; color: var(--royal-blue); margin: 8px 0 1rem 0;">Smt. Shakuntala Memorial Charitable Trust ®</h2>
+          <p style="font-size: 1.05rem; font-weight: 600; color: var(--secondary-blue); margin-bottom: 1rem;">
+            Established by founder and president <strong>Sri. Dr. Veerabhadrappa E. Gadigi</strong>, former Medical Officer, Chittagubbi Hospital, Hubli.
+          </p>
+          <p style="font-size: 0.96rem; color: var(--text-body); margin-bottom: 1rem;">
+            The Institution was started with the aim of <em>"Service to Humanity"</em> along with achievement orientation to the noble profession. Smt. Shakuntala Institute of Nursing Education and Paramedical courses are situated at <strong>Garden City - Hubli</strong>, about <strong>2 km away from the city Railway Station</strong> & about <strong>1 km from the Bus Stand</strong>.
+          </p>
+          <p style="font-size: 0.96rem; color: var(--text-body); margin-bottom: 1.5rem;">
+            Located in <strong>Vidyanagar, Hubli</strong>, the campus provides a calm, quiet, and natural environment conducive for academic learning.
+          </p>
+          <a href="#admissions" class="btn-hero-primary" style="text-decoration: none; display: inline-block;">Read Mission & Values →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step-by-Step Admission Process -->
+  <section id="admissions" class="hostel-section" style="background: var(--bg-cream-light);">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Admission Guidelines 2026-27</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Step-by-Step Admission Process</h2>
+        <p style="color: var(--text-muted); font-size: 1.05rem;">Follow our simple, transparent 6-step online admission workflow.</p>
+      </div>
+
+      <div class="hostel-rules-grid" style="grid-template-columns: repeat(3, 1fr);">
+        
+        <!-- Step 01 -->
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">01</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Online Registration</h4>
+          <p class="rule-text">Create your account and register using your personal details on our official portal or at our Hubli & Kittur admissions office.</p>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">02</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Application Form</h4>
+          <p class="rule-text">Complete the online admission form carefully with your academic background, course preference, and personal details.</p>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">03</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Upload Documents</h4>
+          <p class="rule-text">Upload all required academic marksheets (10th/12th/PUC Science), transfer certificates, conduct certificates, and photo ID.</p>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">04</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Application Review</h4>
+          <p class="rule-text">Our dedicated admission team verifies your documents, academic eligibility, and seat availability as per INC & KNC norms.</p>
+        </div>
+
+        <!-- Step 05 -->
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">05</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Fee Payment</h4>
+          <p class="rule-text">Complete the admission fee payment through online banking, UPI, or demand draft to officially reserve your seat.</p>
+        </div>
+
+        <!-- Step 06 -->
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">06</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Admission Confirmation</h4>
+          <p class="rule-text">Receive your official admission confirmation letter, hostel allotment details, and campus reporting orientation schedule.</p>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <button class="btn-hero-primary trigger-apply-modal">Start Online Application Now →</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Programs Offered Section -->
+  <section id="courses" class="courses-section">
+    <div class="section-container">
+      
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 1rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Academic Programs</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Programs Offered</h2>
+        <p style="color: var(--text-muted); font-size: 1.05rem;">Recognized by INC & KNC • Affiliated to Rajiv Gandhi University of Health Sciences (RGUHS).</p>
+      </div>
+
+      <div class="unified-cards-grid">
+        
+        <!-- Program 1: B.Sc Nursing -->
+        <div class="premium-uni-card">
+          <div>
+            <span class="card-category-label">Degree Program</span>
+            <h3 class="card-title-heading">B.Sc. Nursing</h3>
+            <p class="card-description-text">Four-year comprehensive degree program equipping students with in-depth nursing knowledge, clinical skill lab training, and super-specialty hospital rotations.</p>
+            
+            <div class="program-specs-grid">
+              <div class="spec-item-block">
+                <span class="spec-label-title">Duration</span>
+                <span class="spec-value-text">4 Years</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Eligibility</span>
+                <span class="spec-value-text">10+2 Science (PCB) 45%</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Intake Capacity</span>
+                <span class="spec-value-text">60 Seats</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Affiliation</span>
+                <span class="spec-value-text">INC, KNC & RGUHS</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn-gold-card trigger-apply-modal">Apply for B.Sc Nursing</button>
+        </div>
+
+        <!-- Program 2: Post Basic B.Sc Nursing -->
+        <div class="premium-uni-card">
+          <div>
+            <span class="card-category-label">Post Diploma Degree</span>
+            <h3 class="card-title-heading">Post Basic B.Sc Nursing</h3>
+            <p class="card-description-text">Two-year degree program tailored for registered GNM diploma nurses aiming to upgrade their academic credentials and assume leadership clinical roles.</p>
+            
+            <div class="program-specs-grid">
+              <div class="spec-item-block">
+                <span class="spec-label-title">Duration</span>
+                <span class="spec-value-text">2 Years</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Eligibility</span>
+                <span class="spec-value-text">Pass in GNM Diploma</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Intake Capacity</span>
+                <span class="spec-value-text">40 Seats</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Affiliation</span>
+                <span class="spec-value-text">INC, KNC & RGUHS</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn-gold-card trigger-apply-modal">Apply for Post Basic B.Sc Nursing</button>
+        </div>
+
+        <!-- Program 3: Diploma in GNM -->
+        <div class="premium-uni-card">
+          <div>
+            <span class="card-category-label">Diploma Program</span>
+            <h3 class="card-title-heading">Diploma in GNM</h3>
+            <p class="card-description-text">General Nursing & Midwifery 3-year diploma focusing on bedside care, maternity nursing, emergency care, and community healthcare services.</p>
+            
+            <div class="program-specs-grid">
+              <div class="spec-item-block">
+                <span class="spec-label-title">Duration</span>
+                <span class="spec-value-text">3 Years</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Eligibility</span>
+                <span class="spec-value-text">10+2 / PUC (Any Stream)</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Intake Capacity</span>
+                <span class="spec-value-text">60 Seats</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Affiliation</span>
+                <span class="spec-value-text">INC & KNC Approved</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn-gold-card trigger-apply-modal">Apply for GNM</button>
+        </div>
+
+        <!-- Program 4: M.Sc Nursing -->
+        <div class="premium-uni-card">
+          <div>
+            <span class="card-category-label">Postgraduate Degree</span>
+            <h3 class="card-title-heading">M.Sc. Nursing</h3>
+            <p class="card-description-text">Two-year postgraduate degree offering specializations in Medical-Surgical, Pediatrics, Obstetrics, Mental Health, and Community Health Nursing.</p>
+            
+            <div class="program-specs-grid">
+              <div class="spec-item-block">
+                <span class="spec-label-title">Duration</span>
+                <span class="spec-value-text">2 Years</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Eligibility</span>
+                <span class="spec-value-text">B.Sc Nursing + 1 Yr Exp</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Intake Capacity</span>
+                <span class="spec-value-text">25 Seats</span>
+              </div>
+              <div class="spec-item-block">
+                <span class="spec-label-title">Affiliation</span>
+                <span class="spec-value-text">INC, KNC & RGUHS</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn-gold-card trigger-apply-modal">Apply for M.Sc Nursing</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Departments Section -->
+  <section id="departments" class="hostel-section" style="background: var(--bg-warm-white);">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Specialized Faculties</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Academic Departments</h2>
+      </div>
+      
+      <div class="hostel-rules-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🩺</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Medical-Surgical Nursing</h4>
+          <p class="rule-text">Acute ward care, ICU simulation & surgical nursing.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">👶</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Child Health (Pediatric) Nursing</h4>
+          <p class="rule-text">Neonatal care, pediatric wards & child healthcare.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🤰</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Obstetrics & Gynecological Nursing</h4>
+          <p class="rule-text">Maternity care, midwifery & labor room training.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🧠</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Mental Health (Psychiatric) Nursing</h4>
+          <p class="rule-text">Behavioral health, psychiatric clinical rotations.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🏡</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Community Health Nursing</h4>
+          <p class="rule-text">Rural & urban health camps, preventive healthcare.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🔬</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Nursing Foundation & Anatomy</h4>
+          <p class="rule-text">Basic clinical skills & fundamental health sciences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Institutions Section -->
+  <section id="institutions" class="institutions-section">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 1rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Institutional Network</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Our Institutions</h2>
+        <p style="color: var(--text-muted); font-size: 1.05rem;">Two premier campuses committed to academic excellence & practical clinical healthcare training.</p>
+      </div>
+
+      <div class="institutions-grid">
+        <div class="institution-card">
+          <div>
+            <div class="inst-header-badge">Main Campus • Hubli</div>
+            <h3 class="institution-name">Smt. Shakuntala Institute of Nursing Education (Hubli)</h3>
+            <div class="institution-location">
+              📍 Vidyanagar, Garden City - Hubli, Karnataka – 580021 (~2 km from Railway Station, ~1 km from Bus Stand).
+            </div>
+            <p class="institution-desc">
+              Established in Garden City Hubli, providing B.Sc Nursing, Post Basic B.Sc Nursing, and Diploma GNM programs. Equipped with advanced skill labs, digital medical library, smart classrooms, and clinical exposure at Smt. Shakuntala Memorial Hospital.
+            </p>
+          </div>
+          <button class="btn-hero-primary trigger-apply-modal" style="width: 100%; margin-top: 1rem;">Apply for Hubli Campus</button>
+        </div>
+
+        <div class="institution-card">
+          <div>
+            <div class="inst-header-badge inst-hospital-badge">Second Campus • Kittur • 100-Bed Teaching Hospital</div>
+            <h3 class="institution-name">Smt. Shakuntala Gadigi Institute of Nursing (Kittur)</h3>
+            <div class="institution-location">
+              📍 Bailhongal Road, near Gadagi Hospital, Guruwar Peth, Chennammana Kitturu, Karnataka – 591115.
+            </div>
+            <p class="institution-desc">
+              Established to provide high-quality nursing education in the Belagavi district. A major strength of this campus is its close association with <strong>SMTP Shakuntala Gadagi Grameen Hospital, a 100-bed teaching hospital</strong> that provides students with hands-on clinical exposure, real-world patient care experience, internships, and practical training.
+            </p>
+          </div>
+          <button class="btn-hero-primary trigger-apply-modal" style="width: 100%; margin-top: 1rem;">Apply for Kittur Campus</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expanded Institutional Gallery -->
+  <section id="gallery" class="gallery-section">
+    <div class="section-container">
+      
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Photo Showcase</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Institutional Gallery</h2>
+        <p style="color: var(--text-muted);">Click any photo to view in full resolution.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/images/media__1784737036655.jpg" alt="Anatomy Skill Lab Practical with Skeleton Model" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Anatomy Skill Lab Practical</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Skeleton Model Demonstration</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784737041203.jpg" alt="Nutrition & Practical Clinical Lab" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Nutrition & Clinical Skill Lab</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Dietetics & Patient Care Demonstration</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784737046298.jpg" alt="Utkarsha Cultural Dance in White Attire" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Utkarsha Cultural Performance</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Group Stage Dance Event</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784737074924.jpg" alt="Traditional Drama Performance" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Traditional Drama Performance</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Utkarsha Fest Heritage Drama</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784737090579.jpg" alt="Utkarsha 2K26 Student Team" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Utkarsha 2K26 Student Team</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Annual Fest Organizers</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784731636283.jpg" alt="Utkarsha Cultural Dance Performance" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Utkarsha Graduation Cultural Dance</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Stage Festivities</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784731736532.jpg" alt="Stage Lamp Lighting & Oath Ceremony" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">Lamp Lighting & Oath Ceremony</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Dr. Veerabhadrappa E. Gadigi & Guests</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784731749333.jpg" alt="8th Batch B.Sc Nursing Students" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">8th Batch B.Sc Nursing Students</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">Academic Batch Photo</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/images/media__1784731816632.jpg" alt="22nd Batch Diploma GNM Students" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.05rem;">22nd Batch Diploma GNM Students</div>
+            <div style="color: var(--gold-metallic); font-size: 0.8rem;">School of Nursing Hubli</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" style="grid-column: span 3;">
+          <img src="assets/images/media__1784731838699.jpg" alt="B.Sc Nursing Graduation Ceremony" class="gallery-img">
+          <div class="gallery-overlay">
+            <div style="font-weight: 700; font-size: 1.1rem;">B.Sc Nursing Convocation Ceremony</div>
+            <div style="color: var(--gold-metallic); font-size: 0.82rem;">Graduates in Convocation Gowns • Utkarsha</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section id="facilities" class="hostel-section" style="background: var(--bg-cream-light);">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Campus Infrastructure</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Facilities</h2>
+      </div>
+
+      <div class="hostel-rules-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🔬</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Advanced Laboratories</h4>
+          <p class="rule-text">Anatomy, Nursing Foundation, Nutrition, Pediatrics, OBG & Community Health Skill Labs.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">📚</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Central Digital Library</h4>
+          <p class="rule-text">Vast collection of medical textbooks, e-journals, national nursing periodicals & quiet study desks.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">🏢</div>
+          <h4 style="font-size: 1.15rem; color: var(--royal-blue); margin-bottom: 6px;">Eco-Friendly Hostels</h4>
+          <p class="rule-text">Comfortable separate hostels for men & women with 24/7 security, power backup & nutritious mess.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hostel Facilities & Rules Section -->
+  <section id="hostel" class="hostel-section">
+    <div class="section-container">
+      
+      <div class="hostel-banner-box">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Student Residence</span>
+        <h2 class="hostel-banner-title">A Home That Teaches Too</h2>
+        <p class="hostel-banner-desc">
+          All admitted candidates stay in the hostel provided by the institution. Separate hostels for male and female students are arranged with adequate facilities. Delicious, wholesome Karnataka meals are available throughout the year.
+        </p>
+      </div>
+
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Residence Guidelines</span>
+        <h2 style="font-size: 2.4rem; color: var(--royal-blue);">Hostel Rules & Regulations</h2>
+      </div>
+
+      <div class="hostel-rules-grid">
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">01</div>
+          <p class="rule-text">Staying in the college hostel is compulsory for outstation students.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">02</div>
+          <p class="rule-text">Steel cot, chair with writing pad, tube light, fans, and rack are provided in every room.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">03</div>
+          <p class="rule-text">Four students are accommodated in each room with spacious ventilation.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">04</div>
+          <p class="rule-text">Students should bring their own bedding and personal clothes.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">05</div>
+          <p class="rule-text">Breakfast menu includes Chappathi, Roti, Dosa with vegetable curry as per the hostel mess timetable, prepared in Karnataka style.</p>
+        </div>
+        <div class="hostel-rule-card">
+          <div class="rule-number-badge">06</div>
+          <p class="rule-text">Sick leave is granted only on the submission of a medical certificate from a registered medical practitioner authorized by the institution.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section id="leadership" class="leadership-section">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 2.5rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Governance & Vision</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Institutional Leadership</h2>
+      </div>
+
+      <div class="leadership-grid">
+        <div class="leader-card">
+          <div class="leader-photo-wrapper">
+            <img src="assets/images/media__1784735290990.jpg" alt="Dr. Veerabhadrappa E. Gadigi - Founder & President">
+          </div>
+          <span class="leader-role">Founder & President</span>
+          <h3 class="leader-name">Dr. Veerabhadrappa E. Gadigi</h3>
+          <p class="leader-bio">
+            Former Medical Officer, Chittagubbi Hospital, Hubli. Established Smt. Shakuntala Memorial Charitable Trust ® with the sacred vision of <em>"Service to Humanity"</em> through high-quality professional nursing education.
+          </p>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-photo-wrapper">
+            <img src="assets/images/media__1784735374412.jpg" alt="Dr. Vijay V. Gadigi - Chairman">
+          </div>
+          <span class="leader-role">Chairman</span>
+          <h3 class="leader-name">Dr. Vijay V. Gadigi</h3>
+          <p class="leader-bio">
+            Directing strategic institutional growth, modern clinical simulation development, hospital affiliations, academic excellence, and student welfare under Smt. Shakuntala Institutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Life & Events -->
+  <section id="campus-life" class="about-section">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Student Experience</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Campus Life & Festivities</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-building-card">
+          <img src="assets/images/media__1784731636283.jpg" alt="Utkarsha Cultural Performance">
+        </div>
+        <div>
+          <h3 style="font-size: 2rem; color: var(--royal-blue); margin-bottom: 1rem;">Utkarsha Graduation & Cultural Fest</h3>
+          <p style="font-size: 1rem; color: var(--text-body); line-height: 1.7; margin-bottom: 1.5rem;">
+            Annual lamp lighting, graduation oath ceremony, and cultural celebrations fostering artistic creativity, teamwork, and cultural pride among nursing students.
+          </p>
+          <a href="#gallery" class="btn-hero-primary" style="text-decoration: none; display: inline-block;">View Event Gallery →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placements Section -->
+  <section id="placements" class="clinical-section" style="background: var(--royal-blue);">
+    <div class="section-container" style="text-align: center;">
+      <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Career Pathways</span>
+      <h2 style="font-size: 2.6rem; color: #FFF; margin: 8px 0 1rem 0;">Placement Success</h2>
+      <p style="color: rgba(255,255,255,0.85); max-width: 700px; margin: 0 auto 3rem auto; font-size: 1.05rem;">
+        Our graduates serve across premier super-specialty hospital networks, government health centers, and international healthcare institutions.
+      </p>
+
+      <div class="hostel-rules-grid" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="hostel-rule-card" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #FFF;">
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--gold-metallic);">99.4%</div>
+          <div style="font-size: 0.88rem; margin-top: 4px;">Placement Success Rate</div>
+        </div>
+        <div class="hostel-rule-card" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #FFF;">
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--gold-metallic);">100%</div>
+          <div style="font-size: 0.88rem; margin-top: 4px;">Hospital Internship Placement</div>
+        </div>
+        <div class="hostel-rule-card" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #FFF;">
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--gold-metallic);">20+</div>
+          <div style="font-size: 0.88rem; margin-top: 4px;">Partner Hospital Networks</div>
+        </div>
+        <div class="hostel-rule-card" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #FFF;">
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--gold-metallic);">NCLEX</div>
+          <div style="font-size: 0.88rem; margin-top: 4px;">Overseas Licensing Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Quick Enquiry Section -->
+  <section id="contact" class="contact-section">
+    <div class="section-container">
+      
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 3rem auto;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.08em;">Reach Out</span>
+        <h2 style="font-size: 2.6rem; color: var(--royal-blue);">Contact & Admission Enquiry</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3 style="font-size: 1.8rem; color: #FFF; margin-bottom: 8px;">Smt. Shakuntala Institutions of Nursing Education</h3>
+          <p style="color: rgba(255,255,255,0.85); margin-bottom: 2rem;">Smt. Shakuntala Memorial Charitable Trust ®</p>
+
+          <ul style="list-style: none;">
+            <li style="margin-bottom: 1.4rem; display: flex; gap: 14px;">
+              <div style="font-size: 1.3rem;">📍</div>
+              <div>
+                <strong>Hubli Campus:</strong>
+                <p style="font-size: 0.92rem; color: rgba(255,255,255,0.9); margin-top: 2px;">
+                  Vidyanagar, Garden City - Hubli, Karnataka – 580021.
+                </p>
+              </div>
+            </li>
+            <li style="margin-bottom: 1.4rem; display: flex; gap: 14px;">
+              <div style="font-size: 1.3rem;">📍</div>
+              <div>
+                <strong>Kittur Campus:</strong>
+                <p style="font-size: 0.92rem; color: rgba(255,255,255,0.9); margin-top: 2px;">
+                  Bailhongal Road, near Gadagi Hospital, Guruwar Peth, Kitturu – 591115.
+                </p>
+              </div>
+            </li>
+            <li style="margin-bottom: 1.4rem; display: flex; gap: 14px;">
+              <div style="font-size: 1.3rem;">📞</div>
+              <div>
+                <strong>Helpline:</strong>
+                <p style="font-size: 0.92rem; color: rgba(255,255,255,0.9); margin-top: 2px;">9900641054 / +91 836-2370000</p>
+              </div>
+            </li>
+            <li style="margin-bottom: 1.4rem; display: flex; gap: 14px;">
+              <div style="font-size: 1.3rem;">✉️</div>
+              <div>
+                <strong>Email:</strong>
+                <p style="font-size: 0.92rem; color: rgba(255,255,255,0.9); margin-top: 2px;">ssinehubli2003@gmail.com</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="enquiry-form-card">
+          <h3 style="font-size: 1.8rem; color: var(--royal-blue); margin-bottom: 1.5rem;">Quick Admission Enquiry</h3>
+          <form id="enquiryForm">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" class="form-control" placeholder="Enter full name" required>
+            </div>
+            <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div>
+                <label class="form-label">Mobile Number *</label>
+                <input type="tel" class="form-control" placeholder="10-digit mobile" required>
+              </div>
+              <div>
+                <label class="form-label">Campus Choice *</label>
+                <select class="form-control" required>
+                  <option value="Hubli Campus">Hubli Main Campus</option>
+                  <option value="Kittur Campus">Kittur Campus (100-Bed Hospital)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Course Selection *</label>
+              <select class="form-control" required>
+                <option value="B.Sc Nursing">B.Sc. Nursing (4 Years)</option>
+                <option value="Post Basic B.Sc">Post Basic B.Sc Nursing (2 Years)</option>
+                <option value="Diploma GNM">Diploma in GNM (3 Years)</option>
+                <option value="M.Sc Nursing">M.Sc Nursing (2 Years)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-hero-primary" style="width: 100%; padding: 14px;">Submit Enquiry →</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="footer-grid">
+        <div>
+          <h3 style="font-size: 1.3rem; color: #FFF; margin-bottom: 4px;">Smt. Shakuntala Institutions of Nursing Education</h3>
+          <p style="color: var(--gold-metallic); font-style: italic; font-size: 0.88rem; margin-bottom: 1rem;">“Heal and comfort through skillful caring”</p>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; line-height: 1.6;">
+            Hubli Campus: Vidyanagar, Hubli - 580021<br>
+            Kittur Campus: Bailhongal Road, Kitturu - 591115<br>
+            Email: ssinehubli2003@gmail.com
+          </p>
+        </div>
+
+        <div>
+          <h4 style="color: var(--gold-metallic); font-size: 0.9rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase;">Our Campuses</h4>
+          <ul style="list-style: none; font-size: 0.88rem; line-height: 2;">
+            <li><a href="#institutions" style="color: rgba(255,255,255,0.8); text-decoration: none;">Hubli Main Campus</a></li>
+            <li><a href="#institutions" style="color: rgba(255,255,255,0.8); text-decoration: none;">Kittur Campus (100-Bed)</a></li>
+            <li><a href="#hostel" style="color: rgba(255,255,255,0.8); text-decoration: none;">Hostel Facilities</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="color: var(--gold-metallic); font-size: 0.9rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase;">Academic Programs</h4>
+          <ul style="list-style: none; font-size: 0.88rem; line-height: 2;">
+            <li><a href="#courses" style="color: rgba(255,255,255,0.8); text-decoration: none;">B.Sc. Nursing</a></li>
+            <li><a href="#courses" style="color: rgba(255,255,255,0.8); text-decoration: none;">Post Basic B.Sc</a></li>
+            <li><a href="#courses" style="color: rgba(255,255,255,0.8); text-decoration: none;">Diploma in GNM</a></li>
+            <li><a href="#courses" style="color: rgba(255,255,255,0.8); text-decoration: none;">M.Sc. Nursing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="color: var(--gold-metallic); font-size: 0.9rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase;">Contact Info</h4>
+          <p style="color: rgba(255,255,255,0.8); font-size: 0.85rem; line-height: 1.7;">
+            Phone: 9900641054 / +91 836-2370000<br>
+            Email: ssinehubli2003@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6);">
+        © 2026 Smt. Shakuntala Institutions of Nursing Education (Hubli & Kittur). INC & KNC Approved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal-overlay" id="lightboxModal">
+    <div class="modal-card" style="max-width: 800px; text-align: center;">
+      <button class="modal-close-btn" id="closeLightbox">✕</button>
+      <img id="lightboxImg" src="" alt="Gallery Image" style="width: 100%; max-height: 60vh; object-fit: contain; border-radius: 16px; margin-bottom: 1rem;">
+      <h3 id="lightboxTitle" style="color: var(--royal-blue); font-size: 1.5rem; margin-bottom: 4px;"></h3>
+      <p id="lightboxDesc" style="color: var(--text-muted); font-size: 0.92rem;"></p>
+    </div>
+  </div>
+
+  <!-- Admission Form Modal -->
+  <div class="modal-overlay" id="admissionModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeAdmissionBtn">✕</button>
+      
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <span style="color: var(--gold-metallic); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.06em;">Admissions 2026-27</span>
+        <h2 style="font-size: 2rem; color: var(--royal-blue);">Online Admission Application</h2>
+        <p style="font-size: 0.92rem; color: var(--text-muted); margin-top: 4px;">Smt. Shakuntala Institutions of Nursing Education (Hubli & Kittur)</p>
+      </div>
+
+      <form id="admissionForm">
+        <div class="form-group">
+          <label class="form-label">Applicant Full Name *</label>
+          <input type="text" class="form-control" placeholder="Enter name per 10th marksheet" required>
+        </div>
+
+        <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label class="form-label">Mobile Number *</label>
+            <input type="tel" class="form-control" placeholder="10-digit mobile" required>
+          </div>
+          <div>
+            <label class="form-label">Campus Selection *</label>
+            <select class="form-control" required>
+              <option value="Hubli Campus">Hubli Main Campus</option>
+              <option value="Kittur Campus">Kittur Campus (100-Bed Hospital)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Course Applied For *</label>
+          <select class="form-control" required>
+            <option value="B.Sc Nursing">B.Sc Nursing (4 Years)</option>
+            <option value="Post Basic B.Sc">Post Basic B.Sc Nursing (2 Years)</option>
+            <option value="Diploma GNM">Diploma in GNM (3 Years)</option>
+            <option value="M.Sc Nursing">M.Sc Nursing (2 Years)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-hero-primary" style="width: 100%; padding: 14px; margin-top: 1rem;">Submit Application →</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="js/custom-cursor.js"></script>
+  <script src="js/hero-slider.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/admission.js"></script>
+</body>
+</html>
