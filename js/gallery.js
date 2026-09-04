@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (img && lightboxModal) {
         lightboxImg.src = img.src;
         lightboxTitle.innerText = title;
-        lightboxDesc.innerText = `${tag} • Smt. Shakuntala Institutions of Nursing Education, Hubli.`;
+        lightboxDesc.innerText = `${tag} • Smt. Shakuntala Group of Nursing Institutions and Paramedical Sciences, Hubli.`;
         lightboxModal.classList.add('active');
       }
     });

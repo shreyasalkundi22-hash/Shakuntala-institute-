@@ -125,10 +125,10 @@ h1, h2, h3, h4 {
 
 .brand-name {
   font-family: var(--font-serif);
-  font-size: 1.65rem;
+  font-size: clamp(1.05rem, 1.6vw, 1.45rem);
   font-weight: 800;
   color: #0A192F;
-  line-height: 1.1;
+  line-height: 1.15;
   letter-spacing: -0.01em;
   text-transform: uppercase;
 }
